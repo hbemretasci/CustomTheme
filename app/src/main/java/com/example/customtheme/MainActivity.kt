@@ -46,13 +46,24 @@ fun Greeting(
         color = MaterialTheme.colors.primary
     ) {
 
-        Hata projesi
+        some tekst
 
         Text(
-            text = "Hello $name!",
+            text = "Hi $name!",
             modifier = Modifier.padding(MaterialTheme.spacing.extraLarge),
             color = MaterialTheme.colors.onPrimary,
         )
     }
 
+}
+
+@Preview(showBackground = true)
+@Composable
+fun DefaultPreview() {
+    CustomThemeTheme {
+        Greeting(
+            modifier = Modifier.fillMaxSize(),
+            name = "hello world"
+        )
+    }
 }
