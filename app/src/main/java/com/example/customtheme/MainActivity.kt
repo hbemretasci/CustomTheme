@@ -10,7 +10,6 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import com.example.customtheme.ui.theme.CustomThemeTheme
 import com.example.customtheme.ui.theme.spacing
 
@@ -28,7 +27,7 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier
                             .fillMaxSize()
                             .padding(MaterialTheme.spacing.large),
-                        name = "world"
+                        name = "deneysel"
                     )
                 }
             }
@@ -45,9 +44,6 @@ fun Greeting(
         modifier = modifier,
         color = MaterialTheme.colors.primary
     ) {
-
-        deneme
-
         Text(
             text = "Hello $name!",
             modifier = Modifier.padding(MaterialTheme.spacing.extraLarge),
