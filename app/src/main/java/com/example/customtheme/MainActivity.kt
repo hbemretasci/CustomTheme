@@ -27,7 +27,7 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier
                             .fillMaxSize()
                             .padding(MaterialTheme.spacing.large),
-                        name = "deneysel"
+                        name = "staysel"
                     )
                 }
             }
