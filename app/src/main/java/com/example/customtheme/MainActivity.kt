@@ -46,7 +46,7 @@ fun Greeting(
         color = MaterialTheme.colors.primary
     ) {
         Text(
-            text = "Hello $name!",
+            text = "Hi $name!",
             modifier = Modifier.padding(MaterialTheme.spacing.extraLarge),
             color = MaterialTheme.colors.onPrimary,
         )
