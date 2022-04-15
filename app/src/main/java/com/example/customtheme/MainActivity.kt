@@ -49,6 +49,11 @@ fun Greeting(
             modifier = Modifier.padding(MaterialTheme.spacing.extraLarge),
             color = MaterialTheme.colors.onPrimary,
         )
+        Text(
+            text = "Sabit Deneysel",
+            modifier = Modifier.padding(MaterialTheme.spacing.extraLarge),
+            color = MaterialTheme.colors.onPrimary,
+        )
     }
 
 }
