@@ -46,7 +46,7 @@ fun Greeting(
         color = MaterialTheme.colors.primary
     ) {
 
-        Hata projesi
+        deneme
 
         Text(
             text = "Hello $name!",
